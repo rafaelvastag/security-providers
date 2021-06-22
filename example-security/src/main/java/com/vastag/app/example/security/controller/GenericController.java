@@ -12,4 +12,9 @@ public class GenericController {
 	public String get() {
 		return "Default controller running";
 	}
+	
+	@GetMapping("/free")
+	public String getHealth() {
+		return "Default controller running in free mode";
+	}
 }
